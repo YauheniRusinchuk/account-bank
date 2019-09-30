@@ -8,7 +8,9 @@ function Header() {
         <div className='header_container'>
             <div className='header_menu'>
                 <Link to="/">Последние действия</Link>
-                <Link to="/carts">Ваши карты</Link>
+                <Link to="/cards">Мои карты</Link>
+                <Link to='/todo'>Мои заметки</Link>
+                <Link to='/'>Мои платежи</Link>
             </div>
             <Logout />
         </div>

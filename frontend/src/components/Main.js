@@ -4,7 +4,10 @@ import React from 'react'
 function Main() {
     return (
         <div className='main_container'>
-            <p>MAIN COMPONENT</p>
+            <p>ПОСЛЕДНИЕ ДЕЙСТВИЯ</p>
+            <div className='main_wrapper_container'>
+                
+            </div>
         </div>
     )
 }
