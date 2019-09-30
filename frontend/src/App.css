@@ -1,22 +1,72 @@
-.App {
-  text-align: center;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
+.login_container {
+    width: 100%;
+    height: 100vh;
+    background: #55bae5;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.login_wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
 }
 
-.App-link {
-  color: #09d3ac;
+.login_wrapper_body {
+    width: 50%;
+    height: 300px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 0 0 20px #e6e6e6;
+}
+
+.login_wrapper_body p {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.login_wrapper_body form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.login_wrapper_body form input {
+    width: 300px;
+    padding: 10px;
+    margin: 30px;
+    border: none;
+    border-bottom: 1px solid #55bae5;
+    outline: none;
+    color: #292828;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.login_wrapper_body form button {
+    border: none;
+    padding: 5px 20px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    background: #55bae5;
+    color: white;
 }
