@@ -4,7 +4,7 @@ import React from 'react'
 function Main() {
     return (
         <div className='main_container'>
-            <p>MAIN</p>
+            <p>MAIN COMPONENT</p>
         </div>
     )
 }

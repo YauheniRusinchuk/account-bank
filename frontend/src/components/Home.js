@@ -8,6 +8,10 @@ function Home() {
     return(
         <Fragment>
             <Header />
+            <div>
+                <Route exact path='/' component={Main} />
+                <Route path='/carts' component={Cart} />
+            </div>
         </Fragment>
     )
 }
