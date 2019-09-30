@@ -7,7 +7,7 @@ function Header() {
     return (
         <div className='header_container'>
             <div className='header_menu'>
-                <a href="">Последние действия</a>
+                <Link to="/">Последние действия</Link>
                 <Link to="/carts">Ваши карты</Link>
             </div>
             <Logout />
