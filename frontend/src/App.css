@@ -146,7 +146,8 @@
 .carts_lists .new_add_cart {
     width: 350px;
     height: 100px;
-    border: 1px solid grey;
+    border: none;
+    /* border: 1px solid grey; */
     border-radius: 3px;
     background-color: white;
     cursor: pointer;
@@ -181,4 +182,138 @@
     font-size: 12px;
     color: #55bae5;
     font-weight: bold;
+}
+
+
+.modal_card {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #e6e6e6;
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.modal_card_body {
+    padding: 2rem;
+    width: 400px;
+    border-radius: 5px;
+    background: white;
+    /* height: 300px; */
+    text-align: center;
+}
+
+
+.form-header {
+    height: 60px;
+    padding: 0;
+
+}
+
+.form-body {
+    height: 340px;
+    padding: 5px;
+}
+
+.form-body span {
+    font-size: 10px;
+    font-weight: bold;
+    color: #292828;
+}
+
+
+.card-number,
+.cvv-input input,
+.card_info_fio input,
+.month select,
+.year select {
+    font-size: 12px;
+    font-weight: bold;
+    outline: none;
+    margin: 5px;
+}
+
+.card-number,
+.month select,
+.year select {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px;
+}
+
+.card-number,
+.cvv-input input,
+.card_info_fio input,
+.month select,
+.year select {
+    color: #292828;
+    padding: 5px;
+}
+
+.card-number {
+    font-weight: bold;
+    font-size: 12px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 1px solid grey;
+    border-radius: 2px;
+}
+
+.month select,
+.year select {
+    width: 145px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 2px;
+    background-position: 85% 50%;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+.month select {
+    float: left;
+}
+
+.year select {
+    float: right;
+}
+
+
+.cvv-input input {
+    float: left;
+    width: 145px;
+    padding-left: 20px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    background: white;
+}
+
+.card_info_fio {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card_info_fio input {
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+
+.add_new_cart_btn {
+    border: 1px solid grey;
+    border-radius: 2px;
+    padding: 5px 20px;
+    font-size: 10px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    background-color: white;
+    color: grey;
 }
