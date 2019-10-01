@@ -199,9 +199,10 @@
 .modal_card_body {
     padding: 2rem;
     width: 400px;
+
     border-radius: 5px;
     background: white;
-    /* height: 300px; */
+    height: 400px;
     text-align: center;
 }
 
@@ -218,4 +219,47 @@
     position: absolute;
     right: 5px;
     top: 5px;
+    cursor: pointer;
+}
+
+
+.form_modal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+
+.form_modal span {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.form_modal input {
+    width: 300px;
+    padding: 5px;
+    border-radius: 2px;
+    outline: none;
+    font-size: 12px;
+    color: #292828;
+    border: 1px solid grey;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.form_modal .card_3_nubmer {
+    width: 50px;
+}
+
+.form_modal button {
+    border: 1px solid #55bae5;
+    padding: 5px 20px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    background: white;
+    color: #55bae5;
 }

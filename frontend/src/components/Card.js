@@ -18,6 +18,7 @@ function Card() {
             </button>
             <div className='carts_lists'>
                 <CardView />
+                <CardView />
             </div>
             {isNew && <ModalNewCard handleClose={handleClose} />}
         </div>
