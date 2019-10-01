@@ -9,12 +9,10 @@ function Card() {
     return (
         <div className='cart_container'>
             <p>КАРТЫ</p>
+            <button onClick={() => setNew(true)} className='new_add_cart'>
+                ДОБАВИТЬ НОВУЮ КАРТУ
+            </button>
             <div className='carts_lists'>
-                <button onClick={() => setNew(true)} className='new_add_cart'>
-                    ДОБАВИТЬ НОВУЮ КАРТУ
-                </button>
-                <CardView />
-                <CardView />
                 <CardView />
                 <CardView />
                 <CardView />
