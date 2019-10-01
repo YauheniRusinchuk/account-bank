@@ -6,6 +6,10 @@ function Card() {
 
     const [isNew, setNew] = useState(false);
 
+    function handleClose() {
+        setNew(false)
+    }
+
     return (
         <div className='cart_container'>
             <p>КАРТЫ</p>
@@ -14,11 +18,8 @@ function Card() {
             </button>
             <div className='carts_lists'>
                 <CardView />
-                <CardView />
-                <CardView />
-                <CardView />
             </div>
-            {isNew && <ModalNewCard />}
+            {isNew && <ModalNewCard handleClose={handleClose} />}
         </div>
     )
 }

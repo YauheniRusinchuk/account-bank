@@ -206,6 +206,13 @@
 }
 
 
+.close_icon_btn {
+    position: fixed;
+    top: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
 
 .delete_btn_card {
     position: absolute;
